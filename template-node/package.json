@@ -1,0 +1,7 @@
+{
+  "name": "template-node",
+  "version": "1.0.0",
+  "dependencies": {
+    "post": "^0.0.1"
+  }
+}

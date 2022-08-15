@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td colspan="2">
+                <h2 style="text-align: center">Register</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" required></td>
+        </tr>
+        <tr>
+            <td>Avatar</td>
+            <td><input type="file" name="avatar"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="text" name="password" required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Register</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
